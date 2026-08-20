@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SONIC'S RESTAURANT</title>
+</head>
+<body>
+
+    <h1 style="color: powderblue;">SONIC'S RESTAURANT</h1>
+
+    <table>
+        
+        <tr class="header-title">
+            <th colspan="4">Restaurant Menu</th>
+        </tr>
+        
+        <tr class="header-columns">
+            <th style="width: 15%;">Category</th>
+            <th style="width: 20%;">Image</th>
+            <th style="width: 35%;">Menu</th>
+            <th style="width: 30%;">Description</th>
+        </tr>
+        <tr>
+            <td rowspan="2" class="category-cell">Main Course</td>
+            <td>
+                <img src="https://cdn.sanity.io/images/f3knbc2s/production/3b2689787358bd34ca4fe3375888333d51eba76a-2500x1500.jpg?rect=0,94,2500,1313&w=1200&h=630&fit=crop&auto=format" alt="Main Course">
+            </td>
+            <td>
+                <div class="menu-title">Main Dishes</div>
+                <ul>
+                    <li>Classic Cheeseburger</li>
+                    <li>Chicken Alfredo Pasta</li>
+                    <li>Crispy Fish & Chips</li>
+                </ul>
+            </td>
+            <td>
+                Juicy beef patty with cheddar, lettuce, tomato, pickles, and sauce.
+                Grilled chicken over fettuccine in creamy garlic-Parmesan sauce.
+                Beer-battered fish with tartar sauce and french fries.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMQdlizge4xCd0PkpKMgYMEN0rezJvy353vIH5x8SgkIcBvwTzDn-Azwk&s=10" alt="Combo Meals">
+            </td>
+            <td>
+                <div class="menu-title">Combo Meal</div>
+                <ol>
+                    <li>Burger & Wings Combo</li>
+                    <li>Taco Trio Box</li>
+                    <li>BBQ Pork Ribs Meal</li>
+                </ol>
+            </td>
+            <td>
+                
+                    Cheeseburger, 4 chicken wings, fries, and a drink.
+                    3 tacos with tortilla chips, salsa, and a drink.
+                   Half-rack ribs with coleslaw, fries, and a drink.
+               
+            </td>
+        </tr>
+        <tr>
+            <td>Desserts</td>
+            <td>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYaIsmYxXDPAMMol8fYZ1RsTrUK5kO3id7d4syGWQb8A&s=10" alt="Desserts">
+            </td>
+            <td>
+                <ul style="list-style-type: circle;">
+                    <li>Chocolate Lava Cake</li>
+                    <li>Classic New York Cheesecake</li>
+                    <li>Warm Apple Pie</li>
+                </ul>
+            </td>
+            <td>
+               
+                  Warm chocolate cake with molten center and vanilla ice cream.
+                 Creamy cheesecake on graham crust with strawberry drizzle.
+                 Flaky pie filled with spiced apples, served hot with whipped cream.
+            
+            </td>
+        </tr>
+        <tr>
+            <td class="beverages" colspan="2">Beverages </td>
+            <td>
+                <ul style="list-style-type: square;">
+                    <li>Iced Caramel Macchiato</li>
+                    <li>Fresh Mango Smoothie</li>
+                    <li>Classic Lemonade</li>
+                </ul>
+            </td>
+            <td>
+                     Espresso, cold milk, vanilla syrup, and caramel drizzle over ice.
+                     Blended sweet mangoes, yogurt, and ice.
+                     Fresh squeezed lemon juice with cane sugar over crushed ice.
+            
+            </td>
+        </tr>
+    </table>
+
+</body>
+<style>body {
+    text-align: center;
+    margin: 40px;
+   
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+th, td {
+    border: 1px solid black;
+    padding: 12px;
+    text-align:left;
+    vertical-align: middle;
+}
+
+.header-title {
+    color: black;
+    font-weight: bold;
+    background-color: powderblue;
+}
+
+.header-columns {
+    color: black;
+    font-weight: bold;
+    background-color: powderblue;
+   
+}
+.beverages {
+ display: flexbox;
+ height: 100px;
+
+}
+.header-columns th {
+    text-align: center;
+    
+}
+
+
+td img {
+    width: 120px;
+    height: 80px;
+    border-radius: 6px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+ul, ol {
+    margin: 5px 0 0 0;
+    padding-left: 20px;
+}
+
+.menu-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.header-title th {
+    text-align: center;
+    font-size: 1.2rem;
+}</style>
+</html>
